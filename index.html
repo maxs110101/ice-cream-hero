@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Услуги по разработке и поддержке веб-приложений и веб-сайтов, веб-дизайн, интернет-маркетинг"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WebStudio - полный цикл веб-разработки</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+<link href="https://fonts.googleapis.com/css2?family=Titan+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.min.css" />
+  </head>
+    <body>
+      <main>
+        <section class="hero">
+          <div class="container">
+            <div class="hero__main-block">
+              <h1 class="hero__title">
+                Ice cream <br />
+                made with <br />
+                <span class="hero__word">passion</span>
+              </h1>
+              <ul class="hero__links">
+                <li class="hero__links-item"><a href="#" class="hero__link"><span class="hero__link-text hero__link-text--pro"> Products </span></a></li>
+                <li class="hero__links-item"><a href="#" class="hero__link"><span class="hero__link-text hero__link-text--how"> How it's made?</span></a></li>
+              </ul>
+              <!-- <div class="hero__links">
+                <a href="#" class="hero__link hero__link--products">Products</a>
+                <a href="#" class="hero__link hero__link--made">How it's made?</a><
+              </div> -->
+            </div>
+            <div class="hero__second-block">
+                <picture class="hero__milk-picture">
+                  <source
+                srcset="
+                  ./images/hero-milk-desk-1x.png    1x,
+                  ./images/hero-milk-desk-2x.png 2x
+                "
+                media="(min-width:1280px)"
+              />
+              <source
+                srcset="
+                  ./images/hero-milk-tab-1x.png    1x,
+                  ./images/hero-milk-tab-2x.png 2x
+                "
+                media="(min-width:768px)"
+              />
+              <img src="./images/hero-ice-cream" alt="bio-eco milk" class="hero__milk-image">
+              </picture>
+              <img src="" alt="bio-eco milk" class="hero__second-image">
+              <div class="hero__main-text">
+                <p class="hero__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et</p>
+                <button class="hero__button"></button>
+              </div>
+          </div>
+        <div class="hero__third-block"> 
+        <picture class="hero__ice-cream-picture">
+          <source
+            srcset="
+              ./images/hero-ice-cream-desk-1x.png    1x,
+              ./images/hero-ice-cream-desk-1x.png 2x
+            "
+            media="(min-width:1280px)"
+          />
+          <source
+            srcset="
+              ./images/hero-ice-cream-tab-1x.png    1x,
+              ./images/hero-ice-cream-tab-2x-2x.png 2x
+            "
+            media="(min-width:768px)"
+          />
+          <source
+            srcset="
+              ../images/hero/ice-cream/hero-ice-cream-mob-1x.png    1x,
+              ../images/hero/ice-cream/hero-ice-cream-mob-2x.png 2x
+            "
+            media="(min-width:320px)"
+          />
+          <img src="../images/hero/ice-cream/hero-ice-cream.png" alt="our natural ice cream" class="hero__ice-cream-image">
+          </picture>
+          <div class="hero__background-circle"></div>
+      </div>
+        <ul class="hero__fourth-block">
+          <li class="'hero__facilities-item"><p class="hero__facilities"><span class="hero__quantity">16</span><span class="hero__facility">cafes</span></p></li>
+          <li class="'hero__facilities-item"><p class="hero__facilities"><span class="hero__quantity">23</span><span class="hero__facility">food trucks</span></p></li>
+        </ul>
+        <!-- <div class="hero__fourth-block">
+          <p class="hero__facilities"> <span class="hero__quantity">16</span><span class="hero__facility">cafes</span></p>
+          <p class="hero__facilities"><span class="hero__quantity">23</span><span class="hero__facility">food trucks</span></p>
+              </div> -->
+        <div class="hero__fifth-block">
+        <picture class="hero__consuming-picture">
+            <source
+              srcset="
+                      ./images/hero-consuming-desk-1x.png    1x,
+                ./images/hero-consuming-desk-2x.png 2x
+              "
+              media="(min-width:1280px)"
+            />
+            <source
+              srcset="
+                ./images/hero-consuming-tab-1x.png    1x,
+                ./images/hero-consuming-tab-2x.png 2x
+              "
+              media="(min-width:768px)"
+            />
+            <img src="./images/hero-consuming" alt="tasty ice cream consuming" class="hero__consuming-image">
+          </picture>
+        </div>
+      </div>
+          </section>
+      </main>
+    <script src="./js/modal.js"></script>
+    <script src="./js/mobile-menu.js"></script>
+  </body>
+</html>
