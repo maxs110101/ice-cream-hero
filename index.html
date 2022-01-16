@@ -17,6 +17,7 @@
       rel="stylesheet"
     />
 <link href="https://fonts.googleapis.com/css2?family=Titan+One&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/main.min.css" />
   </head>
     <body>
@@ -42,24 +43,23 @@
                 <picture class="hero__milk-picture">
                   <source
                 srcset="
-                  ./images/hero-milk-desk-1x.png    1x,
-                  ./images/hero-milk-desk-2x.png 2x
+                ../images/hero/milk/hero-milk-desk-1x.png    1x,
+                ../images/hero/milk/hero-milk-desk-2x.png 2x
                 "
                 media="(min-width:1280px)"
               />
               <source
                 srcset="
-                  ./images/hero-milk-tab-1x.png    1x,
-                  ./images/hero-milk-tab-2x.png 2x
+                ../images/hero/milk/hero-milk-tab-1x.png    1x,
+                ../images/hero/milk/hero-milk-tab-2x.png 2x
                 "
                 media="(min-width:768px)"
               />
-              <img src="./images/hero-ice-cream" alt="bio-eco milk" class="hero__milk-image">
+              <img src="../images/hero/milk/hero-milk.png" alt="bio-eco milk" class="hero__milk-image">
               </picture>
-              <img src="" alt="bio-eco milk" class="hero__second-image">
               <div class="hero__main-text">
                 <p class="hero__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et</p>
-                <button class="hero__button"></button>
+                <!-- <button class="hero__button"></button> -->
               </div>
           </div>
         <div class="hero__third-block"> 
@@ -73,8 +73,8 @@
           />
           <source
             srcset="
-              ./images/hero-ice-cream-tab-1x.png    1x,
-              ./images/hero-ice-cream-tab-2x-2x.png 2x
+            ../images/hero/ice-cream/hero-ice-cream-tab-1x.png    1x,
+            ../images/hero/ice-cream/hero-ice-cream-tab-2x.png 2x
             "
             media="(min-width:768px)"
           />
@@ -89,14 +89,19 @@
           </picture>
           <div class="hero__background-circle"></div>
       </div>
-        <ul class="hero__fourth-block">
+        <!-- <ul class="hero__fourth-block">
           <li class="'hero__facilities-item"><p class="hero__facilities"><span class="hero__quantity">16</span><span class="hero__facility">cafes</span></p></li>
           <li class="'hero__facilities-item"><p class="hero__facilities"><span class="hero__quantity">23</span><span class="hero__facility">food trucks</span></p></li>
-        </ul>
-        <!-- <div class="hero__fourth-block">
-          <p class="hero__facilities"> <span class="hero__quantity">16</span><span class="hero__facility">cafes</span></p>
-          <p class="hero__facilities"><span class="hero__quantity">23</span><span class="hero__facility">food trucks</span></p>
+        </ul> -->
+        <!-- <div class="hero__fourth-block"> -->
+          <!-- <div><p class="hero__facilities"> <span class="hero__quantity">16</span><span class="hero__facility">cafes</span></p></div>
+         <div class="abc"><p class="hero__facilities"><span class="hero__quantity">23</span><span class="hero__facility">food trucks</span></p>
               </div> -->
+              <ul class="hero__fourth-block">
+              <li class="hero__facilities-item"><p class="hero__facilities hero__facilities--cafes"> <span class="hero__quantity">16</span><span class="hero__facility">cafes</span></p></li>
+              <li class="hero__facilities-item"><p class="hero__facilities hero__facilities--trucks"> <span class="hero__quantity">23</span><span class="hero__facility">food trucks</span></p></li>
+            </ul>
+          <!-- </div> -->
         <div class="hero__fifth-block">
         <picture class="hero__consuming-picture">
             <source

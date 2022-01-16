@@ -1,20 +1,28 @@
 // hero
 .hero {
-
   padding-top: 193px;
   padding-bottom: 160px;
   background-color: #FFB8CA;
+  @media screen and (max-width: 767px) { 
+    height: 502px;
+  }
+  @media screen and (min-width: 768px) { 
+    height: 339px;
+  }
 }
 // main-block
 .hero__main-block { 
-position: relative;
-padding-left: 20px;
-padding-right: 82px;
+position: absolute; 
+left: 20px;
+// padding-right: 82px;
 z-index: 3;
+@media screen and (min-width: 767px) { 
+  left: 34px;
+  top:102px;
+}
 }
 .hero__title {
-
-  font-family: Titan One;
+font-family: Titan One;
 font-weight: 400;
 font-size: 26px;
 line-height: 30px;
@@ -23,6 +31,10 @@ text-transform: uppercase;
 color: #FFFFFF;
 text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 z-index: 10;
+@media screen and (min-width: 767px) { 
+  font-size: 22px;
+  line-height: 25px;
+}
 }
 .hero__word {
   color: 
@@ -30,14 +42,20 @@ z-index: 10;
   font-size: 46.32px;
   line-height: 46px;
   z-index: 10;
+  @media screen and (min-width: 767px) { 
+    font-size: 34px;
+line-height: 31px;
+  }
 }
 .hero__links {
    display: flex;
   margin-top: 19px;
- 
+  @media screen and (min-width: 767px) { 
+    margin-top: 20px;
+  }
 }
 .hero__links-item:first-child {
-  margin-right: 9.2px;
+  margin-right: 8px;
 }
 .hero__link-text {
   display: flex;
@@ -86,19 +104,29 @@ z-index: 10;
           overflow: hidden;
         }
   }
+  .hero__milk-picture {
+position: absolute;
+left: 34px;
+top: 245px;
+  }
   .hero__main-text {
-  display: flex;
-  flex-direction: column;
+  // display: flex;
+  // flex-direction: column;
+position: absolute;
+left: 154px;
+top: 292px;
+// top: 292px;
   }
 .hero__text {
+  width: 114px;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 19.6px;
+  font-size: 8px;
+  line-height: 12px;
   color: #FFFFFF;
 }
-.hero__button {
-  background-image: url();
-}
+// .hero__button {
+//   background-image: url();
+// }
 // third-block
 .hero__background-circle {
   position: absolute;
@@ -107,13 +135,15 @@ z-index: 10;
     border-radius: 50%;
     left:36px;
     z-index: 1;
-    @media screen and (max-width: 767px) {
+    @media screen and (min-width: 320px) {
 width: 346px;
 height: 344px;
 }
-          @media screen and (mim-width: 768px) {
+          @media screen and (min-width: 768px) {
 width: 324px;
 height: 322px;
+left: 307px;
+top: 31px;
 }
                 @media screen and (min-width: 1280px) {        
 width: 538px;
@@ -125,6 +155,12 @@ position: absolute;
 top: 92px;
 left: 117px;
 z-index: 2;
+@media screen and (min-width: 768px) {
+  top: 63px;
+  left: 378px;
+  }
+                  @media screen and (min-width: 1280px) {        
+  }
  }
 //    fourth-block
 .hero__fourth-block {
@@ -140,15 +176,39 @@ z-index: 2;
           clip: rect(0 0 0 0);
           overflow: hidden;
         }
-  display: flex;
-  flex-direction: column; 
+  // display: flex;
+  // flex-direction: column; 
+  position: absolute;
+  top: 94px;
+left: 691px;
 }
-.hero__facilities {
+.hero__facilities-item:first-child {
   position: relative;
   width: 43px;
-height: 44px;
+  height: 44px;
+margin-bottom: 13px;
+margin-left: 8px
+}
+.hero__facilities-item:last-child {
+  position: relative;
+  width: 51px;
+  height: 43px;
+}
+.hero__facilities {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  bottom: 0px;
+}
+.hero__facilities--cafes {
+  width: 33px;
+}
+.hero__facilities--trucks {
+  width: 43px;
+  text-align: right;
 }
 .hero__quantity {
+  font-family: Titan One;
   font-weight: 400;
 font-size: 28px;
 line-height: 32px;
@@ -157,6 +217,7 @@ text-transform: uppercase;
 color: #D41443;
 }
 .hero__facility {
+  font-family: DM Sans;
   font-weight: 400;
   font-size: 8px;
   line-height: 10px;
