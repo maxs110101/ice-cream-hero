@@ -485,8 +485,6 @@ summary {
     justify-content: center;
     border: none;
     background-repeat: no-repeat;
-    text-decoration: none;
-    display: inline-block;
     border-radius: 50%;
     cursor: pointer;
   }
