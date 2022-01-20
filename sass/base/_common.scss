@@ -1,1 +1,63 @@
-
+body {
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    margin: 0;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  button {
+    cursor: pointer;
+  }
+  
+  img {
+    display: block;
+  }
+  
+  
+  .visually-hidden {
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+    position: absolute;
+  }
+  
+  // ----------VARIABLES-----------
+  
+  $main-title-color: #d41443;
+  $second-title-color: #ffffff;
+  $main-text-color: #ffffff;
+  $second-text-color: #000000;
+  $third-text-color: #907e82;
+  $fourth-text-color: #ffa5ba;
+  $main-bg-color: #ffb8ca;
+  $second-bg-color: #fff5f6;
+  $main-btn-color: #d41342;
+  $second-btn-color: #ffffff;
+  $hover-text-color: #d41443;
+  $hover-bg-color: #ecebeb;
+  $main-current-color: #ffb8ca;
+  $second-current-color: #f0d1a5;
+  $third-current-color: #c2e297;
+  $social-icon-bg-color: #fea5bb;
+  $hover-icon-bg-color: #6b454e;
